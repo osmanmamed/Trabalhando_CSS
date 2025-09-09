@@ -1,0 +1,42 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b4e48a;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Box model aplicado às caixas */
+.box {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Cores diferentes para cada tipo */
+.reset {
+    border-color: #e74c3c;
+    background-color: #fdecea;
+}
+
+.reboot {
+    border-color: #3498db;
+    background-color: #eaf3fc;
+}
+
+.normalize {
+    border-color: #2ecc71;
+    background-color: #e9f9f0;
+}
+
+.box h2 {
+    margin-top: 0;
+}
