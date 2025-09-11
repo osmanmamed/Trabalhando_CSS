@@ -1,36 +1,48 @@
-body {
-  background: #000;
-  color: #fff;
-  font-family: Arial, sans-serif;
-  padding: 30px;
+.container{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+
 }
+
 h1 {
-    text-align: center
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: white;
+    margin-top: 0;
 }
 
-.curso {
-  margin-bottom: 30px;
+button {
+    background: #febe01;
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    border-radius: 4px;
+    &:hover {
+        background: #332200;
+    }
 }
 
-.preco, .amarelo {
-  color: #ffb400;
+span {
+    color:#FEBE01;
 }
 
-.cinza {
-  color: #ccc;
+.frame{
+    background-color: black;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 20px;
+    padding: 25px;
+    width: 470px;
 }
 
-.botao {
-  display: inline-block;
-  margin-top: 10px;
-  background: #ffb400;
-  color: #000;
-  padding: 10px 15px;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
+p {
+    color: #b2b2b2;
 }
 
-.botao:hover {
-  background: #e0a000;
+button {
+    color: #332200;
 }
