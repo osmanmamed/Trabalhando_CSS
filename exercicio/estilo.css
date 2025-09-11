@@ -1,0 +1,23 @@
+body
+ {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50 px;
+     
+}   
+h1 {
+
+    text-align: center;
+}
+
+h2 {
+
+margin:  0;
+
+}
+
+.item {
+    background: #111;
+    color: #fff;
+    padding: 30px;
+}
+
